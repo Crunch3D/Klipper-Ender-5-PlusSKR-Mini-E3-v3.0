@@ -7,11 +7,10 @@ Klipper configuration for the following setup. Adjust as needed for your persona
 - Stock rails
 - Stock Creality stepper motors (X/Y/Z)
 - Bondtech NEMA17 "Pancake" stepper (Extruder)
-  - (Settings for the stock Creality extruder motor is still included)
+  - (Settings for the stock Creality extruder motor is still included, all-metal gears)
 - Bondtech BMS Dual Gear Extruder (right variant, unmirrored)
 - Phaetus Dragonfly BMS Hotend
 - Touchscreen display **disabled** due to firmware limitations
-- Creality all-metal bowden extruder upgrade
 
 # License
 
