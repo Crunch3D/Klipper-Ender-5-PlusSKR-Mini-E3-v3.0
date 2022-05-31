@@ -24,7 +24,9 @@ None required for stock. Check back later for other mods.
 
 ### Bondtech BMG Extruder
 
-Does not align with the filament sensor. An adapter plate is required (coming soon).
+1. Does not align with the filament sensor. An adapter plate is required (coming soon).
+
+2. A screw to the mounting plate interfers with the clearance on the top of the extruder housing. It's fine to remove it, but that's just a [bodge](https://www.youtube.com/watch?v=lIFE7h3m40U).
 
 ### Phaetus Dragonfly BMS Hotend
 
