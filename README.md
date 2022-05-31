@@ -28,6 +28,10 @@ None required for stock. Check back later for other mods.
 
 2. A screw to the mounting plate interfers with the clearance on the top of the extruder housing. It's fine to remove it, but that's just a [bodge](https://www.youtube.com/watch?v=lIFE7h3m40U).
 
+### Bondtech NEMA17 25mm "pancake" stepper motors
+
+Creality wire the middle two pins on the motor connectors backwards. You will need to switch these two pins around for these motors to function correctly. Otherwise, they will vibrate and heat up very quickly, possibly damaging them.
+
 ### Phaetus Dragonfly BMS Hotend
 
 Clearance from the gantry is minimal, and may cause the silicone sock to be unremovable. According to Andrew "[MediaMan3D](https://www.printables.com/social/56045-mediaman3d/about)", this could be fixed by reversing the hotend. I have yet to test this.
