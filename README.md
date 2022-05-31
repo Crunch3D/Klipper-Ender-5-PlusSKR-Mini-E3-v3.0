@@ -5,7 +5,10 @@ Klipper configuration for the following setup. Adjust as needed for your persona
 - Ender 5 Plus
 - Mainboard: BTT SKR Mini E3 v3.0
 - Stock rails
-- Stock Creality stepper motors
+- Stock Creality stepper motors (X/Y/Z)
+- Bondtech NEMA17 "Pancake" stepper (Extruder)
+  - (Settings for the stock Creality extruder motor is still included)
+- Bondtech BMS Dual Gear Extruder (right variant, unmirrored)
 - Phaetus Dragonfly BMS Extruder
 - Touchscreen display **disabled** due to firmware limitations
 - Creality all-metal bowden extruder upgrade
