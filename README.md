@@ -26,6 +26,10 @@ Happy printing!
 - [Stepper Motor Driver Currents (run_current)](https://docs.vorondesign.com/community/howto/120decibell/calculating_driver_current.html)
 - [SKR Mini E3 v3.0 pinout diagram](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf)
 
+# Donations
+
+Found this repo helpful? Buy me a [Ko-Fi](https://ko-fi.com/tinyfluffs_).
+
 # License
 
 Do whatever you want with it (public domain).
