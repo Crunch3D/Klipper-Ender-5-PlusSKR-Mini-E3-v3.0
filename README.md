@@ -4,6 +4,7 @@ Klipper configuration for the following setup. Adjust as needed for your persona
 
 - Ender 5 Plus
 - Mainboard: BTT SKR Mini E3 v3.0
+- BLTouch probe
 - Stock rails
 - Stock Creality stepper motors (X/Y/Z)
 - Bondtech NEMA17 "Pancake" stepper (Extruder)
