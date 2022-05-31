@@ -12,6 +12,17 @@ Klipper configuration for the following setup. Adjust as needed for your persona
 - Phaetus Dragonfly BMS Hotend
 - Touchscreen display **disabled** due to firmware limitations
 
+Pinout photo can be found in the repo, apologies for the poor quality.
+
+If you would like help with debugging your own setup, don't hesitate to open an issue.
+
+Happy printing!
+
+# Further Reading
+
+- [Extruder Calibration Guide (rotation_distance)](https://www.klipper3d.org/Rotation_Distance.html)
+- [Stepper Motor Driver Currents (run_current)](https://docs.vorondesign.com/community/howto/120decibell/calculating_driver_current.html)
+
 # License
 
 Do whatever you want with it (public domain).
