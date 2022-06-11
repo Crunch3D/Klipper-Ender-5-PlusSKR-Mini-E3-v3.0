@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/tinyfluffs/klipper_ender_5_plus/main/printer.jpg" width="350" />
+<img src="https://raw.githubusercontent.com/tinyfluffs/klipper_ender_5_plus/main/printer.jpg" width="500" />
 
 # Klipper Config: Ender 5 Plus w/ SKR Mini E3 v3.0
 
