@@ -45,7 +45,7 @@ Clearance from the gantry is minimal, and may cause the silicone sock to be unre
 
 ## Extra Notes
 
-A pinout photo can be found in the repo, apologies for the poor quality. My original wiring follows the video tutorial by [Kersey Fabrications](https://www.youtube.com/watch?v=VAXY3GkgTyY). I do not use Kersey's firmware builds, instead I've opted to run Klipper firmware directly from a source compile.
+My original wiring follows the video tutorial by [Kersey Fabrications](https://www.youtube.com/watch?v=VAXY3GkgTyY). I do not use Kersey's firmware builds, instead I've opted to run Klipper firmware directly from a source compile.
 
 If you would like help with debugging your own setup, don't hesitate to open an issue.
 
