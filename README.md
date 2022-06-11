@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/tinyfluffs/klipper_ender_5_plus/main/printer.jpg" width="350" />
+
 # Klipper Config: Ender 5 Plus w/ SKR Mini E3 v3.0
 
 Out of the box, my Klipper configuration supports the following setup. As my printer receives upgrades, older components will get pushed out into separate config files. You may find these useful if your configuration differs from my own.
