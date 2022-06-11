@@ -11,10 +11,15 @@ Out of the box, my Klipper configuration supports the following setup. As my pri
 - Bondtech BMG Extruder (right variant, unmirrored)
 - Phaetus Dragonfly BMS Hotend
 - Touchscreen display **disabled** due to firmware limitations
+- Hero Me Gen6 (dual with BLTouch) part cooling
 
 ## Supported Extruders
 - Creality Stock (comes with the printer, all-metal extruder also supported)
 - Bondtech BMG with NEMA17 "pancake" stepper motor
+
+## Supported Part Cooling
+- Creality Stock
+- Hero Me Gen6 (dual 4020 radial fans)
 
 ## Printable upgrades
 
