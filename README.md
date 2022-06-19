@@ -14,6 +14,7 @@ Out of the box, my Klipper configuration supports the following setup. As my pri
 - Phaetus Dragonfly BMS Hotend
 - Touchscreen display **disabled** due to firmware limitations
 - Hero Me Gen6 (dual with BLTouch) part cooling
+- ADXL345 for input shaping calibration
 
 ## Supported Extruders
 - Creality Stock (comes with the printer, all-metal extruder also supported)
