@@ -1,3 +1,4 @@
 camera="usb"
-camera_raspi_options="-fps 30"
+camera_usb_options="-r 1280x720 -f 30 -d /dev/video0"
 camera_streamer="mjpeg"
+
