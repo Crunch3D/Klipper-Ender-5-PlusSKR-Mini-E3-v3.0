@@ -13,7 +13,7 @@ Out of the box, my Klipper configuration supports the following setup. As my pri
 - Bondtech BMG Extruder (right variant, unmirrored)
 - Phaetus Dragonfly BMS Hotend
 - Touchscreen display **disabled** due to firmware limitations
-- Hero Me Gen6 (dual with BLTouch) part cooling
+- Hero Me Gen6 (single 4020 with compact BLTouch mounts) part cooling
 - ADXL345 for input shaping calibration
 
 ## Supported Extruders
