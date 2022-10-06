@@ -25,12 +25,12 @@ If not using the included SuperSlicer profile, configure the following:-
 
 ### Start Gcode
 
-SuperSlicer:
+#### SuperSlicer:
 ```
 PRINT_START BED={first_layer_bed_temperature[initial_extruder]} EXTRUDER={first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]}
 ```
 
-PrusaSlicer:
+#### PrusaSlicer:
 ```
 PRINT_START BED={first_layer_bed_temperature[0]} EXTRUDER={first_layer_temperature[0]}
 ```
