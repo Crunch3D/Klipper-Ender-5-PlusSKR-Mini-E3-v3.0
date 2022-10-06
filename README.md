@@ -1,20 +1,23 @@
-<img src="https://raw.githubusercontent.com/tinyfluffs/klipper_ender_5_plus/main/printer.jpg" width="500" />
-
 # Klipper Config: Ender 5 Plus w/ SKR Mini E3 v3.0
 
-Out of the box, my Klipper configuration supports the following setup. As my printer receives upgrades, older components will get pushed out into separate config files. You may find these useful if your configuration differs from my own.
+Out of the box, my Klipper configuration supports the following setup. This includes pre-calulated stepper motor voltages, and other E5+ specific settings. Use this configuration as a baseline, and tweak to your heart's desire.
 
 - Ender 5 Plus
 - Mainboard: BTT SKR Mini E3 v3.0
 - BLTouch probe
-- Filament runoff sensor switch
+- Filament runoff sensor switch (removed)
 - Stock rails
 - Stock Creality stepper motors (X/Y/Z)
 - Bondtech BMG Extruder (right variant, unmirrored)
 - Phaetus Dragonfly BMS Hotend
-- Touchscreen display **disabled** due to firmware limitations
-- Hero Me Gen6 (single 4020 with compact BLTouch mounts) part cooling
+- Touchscreen display **removed** due to firmware limitations
+- BantaMount in a bowden configuration
+- Pressure Advance is ready to go, configure your own settings
 - ADXL345 for input shaping calibration
+
+## Printing Profiles
+
+Provided for SuperSlicer with sensible defaults.
 
 ## Supported Extruders
 - Creality Stock (comes with the printer, all-metal extruder also supported)
@@ -22,19 +25,15 @@ Out of the box, my Klipper configuration supports the following setup. As my pri
 
 ## Supported Part Cooling
 - Creality Stock
-- Hero Me Gen6 (dual 4020 radial fans)
+- BantaMount w/ single 5015 fan (current config)
 
-## Printable upgrades
-
-None required for stock. Check back later for other mods.
+No changes should be required to move from Creality's stock part cooling to a BantaMount.
 
 ## Compatibility Notes
 
 ### Bondtech BMG Extruder
 
-1. Does not align with the filament sensor. An adapter plate is required (coming soon).
-
-2. A screw to the mounting plate interfers with the clearance on the top of the extruder housing. It's fine to remove it, but that's just a [bodge](https://www.youtube.com/watch?v=lIFE7h3m40U).
+1. Does not align with the filament sensor, so I removed the filament sensor. One day I'll get around to building a compatible mounting bracket..
 
 ### Bondtech NEMA17 25mm "pancake" stepper motors
 
@@ -42,7 +41,7 @@ Creality wire the middle two pins on the motor connectors backwards. You will ne
 
 ### Phaetus Dragonfly BMS Hotend
 
-Clearance from the gantry is minimal, and may cause the silicone sock to be unremovable. According to Andrew "[MediaMan3D](https://www.printables.com/social/56045-mediaman3d/about)", this could be fixed by reversing the hotend. I have yet to test this.
+Clearance from the gantry is minimal with the stock part cooling setup, and may cause the silicone sock to be unremovable. You can add some washers as a spacer, but I chose to use the BantaMount which doesn't have this issue.
 
 ## Extra Notes
 
@@ -58,6 +57,7 @@ Happy printing!
 - [Stepper Motor Driver Currents (run_current)](https://docs.vorondesign.com/community/howto/120decibell/calculating_driver_current.html)
 - [SKR Mini E3 v3.0 pinout diagram](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf)
 - [gh/KersyFabrications](https://github.com/KerseyFabrications)
+- [AndrewEllis93's Print-Tuning-Guide](https://github.com/AndrewEllis93/Print-Tuning-Guide)
 
 # Donations
 
