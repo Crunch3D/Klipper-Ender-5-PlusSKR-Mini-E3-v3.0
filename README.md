@@ -19,6 +19,22 @@ Out of the box, my Klipper configuration supports the following setup. This incl
 
 Provided for SuperSlicer with sensible defaults.
 
+## Start/End Gcode
+
+If not using the included SuperSlicer profile, configure the following:-
+
+### Start Gcode
+
+```
+PRINT_START BED={first_layer_bed_temperature[initial_extruder]} EXTRUDER={first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]}
+```
+
+### End Gcode
+
+```
+PRINT_END
+```
+
 ## Supported Extruders
 - Creality Stock (comes with the printer, all-metal extruder also supported)
 - Bondtech BMG with NEMA17 "pancake" stepper motor
