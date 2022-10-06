@@ -55,7 +55,7 @@ No changes should be required to move from Creality's stock part cooling to a Ba
 
 ### Bondtech BMG Extruder
 
-1. Does not align with the filament sensor, so I removed the filament sensor. One day I'll get around to building a compatible mounting bracket..
+Does not align with the filament sensor, so I removed the filament sensor. One day I'll get around to building a compatible mounting bracket..
 
 ### Bondtech NEMA17 25mm "pancake" stepper motors
 
@@ -63,7 +63,7 @@ Creality wire the middle two pins on the motor connectors backwards. You will ne
 
 ### Phaetus Dragonfly BMS Hotend
 
-Clearance from the gantry is minimal with the stock part cooling setup, and may cause the silicone sock to be unremovable. You can add some washers as a spacer, but I chose to use the BantaMount which doesn't have this issue.
+Clearance from the gantry is minimal with the stock part cooling setup, and may cause the silicone sock to be unremovable. You can add some washers as a spacer, but I chose to use the BantaMount which doesn't have this issue. For the BantaMount, extra clearance is needed at the rear of the hotend mount. If you need this file, please open a new issue and I will get right on it.
 
 ## Extra Notes
 
