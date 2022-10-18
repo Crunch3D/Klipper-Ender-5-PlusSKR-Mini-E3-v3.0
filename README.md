@@ -17,7 +17,7 @@ Out of the box, my Klipper configuration supports the following setup. This incl
 
 ## Printing Profiles
 
-Provided for SuperSlicer with sensible defaults.
+Provided for both PrusaSlicer and SuperSlicer, with sensible defaults. Note that these also include my extrusion multiplier values, so you may want to reset these to 1.0 and tune for your filaments.
 
 ## Start/End Gcode
 
