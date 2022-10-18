@@ -99,7 +99,7 @@ Start Klipper again:-
 sudo systemctl restart klipper
 ```
 
-Be sure that the `[dgus_display]` section of printer.cfg is uncommented. When Klipper starts back up, the display should now be usable.
+> **Be sure that the `[dgus_display]` section of printer.cfg is uncommented. When Klipper starts back up, the display should now be usable.**
 
 ## Compatibility Notes
 
