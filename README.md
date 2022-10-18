@@ -53,19 +53,8 @@ No changes should be required to move from Creality's stock part cooling to a Ba
 
 ## Touchscreen Display
 
-Connects with the [Klipper firmware by Desuuuu](https://github.com/Desuuuu/klipper/tree/dgus-display). The `dgus-display` branch is known compatible.
-Wire as follows, using the [SKR Mini E3 v3.0 Pinout Diagram](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf) as reference.
-Download the [known compatible screen firmware](https://github.com/Desuuuu/DGUSPrinterMenu/releases/tag/1.0.0)
-
-### Flashing the Touchscreen Firmware
-
-1. Format an SD Card (preferably smaller than 16GB) with the FAT32 filesystem
-2. Extract the contents of touchscreen firmware directly to the root of the SD card
-3. Disconnect the Raspberry Pi from the printer before turning on
-4. Insert the SD card into the rear of the touchscreen
-5. Turn on the printer. After a few seconds, the screen should turn blue. Flashing has begun
-6. Wait for the final message to read `END` before turning off the printer, and removing the SD card
-7. Reconnect the Raspberry Pi, and turn on the printer
+- Connects with the [Klipper firmware by Desuuuu](https://github.com/Desuuuu/klipper/tree/dgus-display). The `dgus-display` branch is known compatible.
+- Wire as follows, using the [SKR Mini E3 v3.0 Pinout Diagram](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf) as reference.
 
 | SKR Mini E3 v3.0 Pins | Touchscreen Pins |
 | ----------------------|------------------|
@@ -73,6 +62,17 @@ Download the [known compatible screen firmware](https://github.com/Desuuuu/DGUSP
 | TFT GND               | GND              |
 | TFT TX2               | RX2              |
 | TFT RX2               | TX2              |
+
+### Flashing the Touchscreen Firmware
+
+1 Download the [known compatible screen firmware](https://github.com/Desuuuu/DGUSPrinterMenu/releases/tag/1.0.0)
+2. Format an SD Card (preferably smaller than 16GB) with the FAT32 filesystem
+3. Extract the contents of touchscreen firmware directly to the root of the SD card
+4. Disconnect the Raspberry Pi from the printer before turning on
+5. Insert the SD card into the rear of the touchscreen
+6. Turn on the printer. After a few seconds, the screen should turn blue. Flashing has begun
+7. Wait for the final message to read `END` before turning off the printer, and removing the SD card
+8. Reconnect the Raspberry Pi, and turn on the printer
 
 If all is well, you should now have a printer icon visible on the touchscreen. Continue by flashing Desuuuu's Klipper to the SKR Mini E3.
 
