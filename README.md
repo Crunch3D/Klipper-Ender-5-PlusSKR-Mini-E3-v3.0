@@ -10,7 +10,7 @@ Out of the box, my Klipper configuration supports the following setup. This incl
 - Stock Creality stepper motors (X/Y/Z)
 - Bondtech BMG Extruder (right variant, unmirrored)
 - Phaetus Dragonfly BMS Hotend
-- Touchscreen display **removed** due to firmware limitations
+- Touchscreen flashed with Desuuuu's DGUS firmware
 - BantaMount in a bowden configuration
 - Pressure Advance is ready to go, configure your own settings
 - ADXL345 for input shaping calibration
@@ -51,27 +51,13 @@ PRINT_END
 
 No changes should be required to move from Creality's stock part cooling to a BantaMount.
 
-## Compatibility Notes
-
-### Bondtech BMG Extruder
-
-Does not align with the filament sensor, so I removed the filament sensor. One day I'll get around to building a compatible mounting bracket..
-
-### Bondtech NEMA17 25mm "pancake" stepper motors
-
-Creality wire the middle two pins on the motor connectors backwards. You will need to switch these two pins around for these motors to function correctly. Otherwise, they will vibrate and heat up very quickly, possibly damaging them.
-
-### Phaetus Dragonfly BMS Hotend
-
-Clearance from the gantry is minimal with the stock part cooling setup, and may cause the silicone sock to be unremovable. You can add some washers as a spacer, but I chose to use the BantaMount which doesn't have this issue. For the BantaMount, extra clearance is needed at the rear of the hotend mount. If you need this file, please open a new issue and I will get right on it.
-
-### Touchscreen Display
+## Touchscreen Display
 
 Connects with the [Klipper firmware by Desuuuu](https://github.com/Desuuuu/klipper/tree/dgus-display). The `dgus-display` branch is known compatible.
 Wire as follows, using the [SKR Mini E3 v3.0 Pinout Diagram](https://github.com/bigtreetech/BIGTREETECH-SKR-mini-E3/blob/master/hardware/BTT%20SKR%20MINI%20E3%20V3.0/Hardware/BTT%20E3%20SKR%20MINI%20V3.0_PIN.pdf) as reference.
 Download the [known compatible screen firmware](https://github.com/Desuuuu/DGUSPrinterMenu/releases/tag/1.0.0)
 
-#### Flashing the Touchscreen Firmware
+### Flashing the Touchscreen Firmware
 
 1. Format an SD Card (preferably smaller than 16GB) with the FAT32 filesystem
 2. Extract the contents of touchscreen firmware directly to the root of the SD card
@@ -90,7 +76,7 @@ Download the [known compatible screen firmware](https://github.com/Desuuuu/DGUSP
 
 If all is well, you should now have a printer icon visible on the touchscreen. Continue by flashing Desuuuu's Klipper to the SKR Mini E3.
 
-#### Flashing Desuuuu's Klipper Branch
+### Flashing Desuuuu's Klipper Branch
 
 Assuming you already have Klipper built for the printer using the official repository, we can switch to Desuuuu's branch and build that.
 
@@ -114,6 +100,20 @@ sudo systemctl restart klipper
 ```
 
 Be sure that the `[dgus_display]` section of printer.cfg is uncommented. When Klipper starts back up, the display should now be usable.
+
+## Compatibility Notes
+
+### Bondtech BMG Extruder
+
+Does not align with the filament sensor, so I removed the filament sensor. One day I'll get around to building a compatible mounting bracket..
+
+### Bondtech NEMA17 25mm "pancake" stepper motors
+
+Creality wire the middle two pins on the motor connectors backwards. You will need to switch these two pins around for these motors to function correctly. Otherwise, they will vibrate and heat up very quickly, possibly damaging them.
+
+### Phaetus Dragonfly BMS Hotend
+
+Clearance from the gantry is minimal with the stock part cooling setup, and may cause the silicone sock to be unremovable. You can add some washers as a spacer, but I chose to use the BantaMount which doesn't have this issue. For the BantaMount, extra clearance is needed at the rear of the hotend mount. If you need this file, please open a new issue and I will get right on it.
 
 ## Extra Notes
 
