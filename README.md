@@ -65,7 +65,7 @@ No changes should be required to move from Creality's stock part cooling to a Ba
 
 ### Flashing the Touchscreen Firmware
 
-1 Download the [known compatible screen firmware](https://github.com/Desuuuu/DGUSPrinterMenu/releases/tag/1.0.0)
+1. Download the [known compatible screen firmware](https://github.com/Desuuuu/DGUSPrinterMenu/releases/tag/1.0.0)
 2. Format an SD Card (preferably smaller than 16GB) with the FAT32 filesystem
 3. Extract the contents of touchscreen firmware directly to the root of the SD card
 4. Disconnect the Raspberry Pi from the printer before turning on
