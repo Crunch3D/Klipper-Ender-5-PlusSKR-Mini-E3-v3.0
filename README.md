@@ -133,7 +133,7 @@ Happy printing!
 - [Vector3D's Califlower (for X/Y stepper calibration)](https://vector3d.co.uk/product/vector-3d-printer-calibration-and-test-suite/)
 
 
-
+[![Les Stats GitHub](https://github-readme-stats.vercel.app/api?username=Crunch3D)](https://github.com/Crunch3D/Klipper-Ender-5-PlusSKR-Mini-E3-v3.0)
 
 
 
